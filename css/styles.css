@@ -1,0 +1,218 @@
+:root {
+  --logo-blue: #2196f3;
+  --logo-black: #000000;
+  --logo-white: #ffffff;
+  --footer-60-white: rgba(255, 255, 255, 0.6);
+  --text-black: #212121;
+  --text-light-gray: #757575;
+  --buttons-background-gray: #f5f4fa;
+  --background-gray: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+/* Header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-black);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--logo-blue);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-black);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--logo-blue);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-light-gray);
+  text-decoration: none;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--logo-blue);
+}
+
+/* Main */
+
+/* Efektywne rozwiązania */
+
+.header-primary {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--logo-white);
+}
+
+.header-primary-button {
+  font-weight: 700;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--logo-white);
+  background: var(--logo-blue);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Nasze atuty */
+
+.header-tertiary {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-black);
+}
+
+.header-tertiary-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
+}
+
+/* Czym się zajmujemy */
+/* Nasz zespół */
+
+.header-secondary {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+}
+
+.name {
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+}
+
+.profession {
+  font-weight: 400;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
+}
+
+/* Footer */
+
+.background-ftr {
+  background: var(--background-gray);
+}
+
+.logo-ftr {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-white);
+  text-decoration: none;
+}
+
+.logo-ftr span {
+  color: var(--logo-blue);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--logo-white);
+}
+
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-60-white);
+  text-decoration: none;
+}
+
+.footer:hover,
+.footer:focus {
+  color: var(--logo-blue);
+}
+
+.email {
+  text-decoration: underline;
+}
+
+/* PORTFOLIO */
+
+/* Filtry */
+
+.buttons {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.buttons:hover,
+.buttons:focus {
+  background: var(--logo-blue);
+  color: var(--logo-white);
+}
+
+/* Portfolio */
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-black);
+}
+
+.project-type {
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-light-gray);
+}
