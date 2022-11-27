@@ -14,6 +14,16 @@ body {
   color: #212121;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 94px 0;
+}
+
 /* Header */
 
 .logo {
@@ -74,6 +84,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--logo-white);
+  background-color: var(--background-gray);
 }
 
 .header-primary-button {
