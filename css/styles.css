@@ -19,6 +19,11 @@ ul {
   padding: 0;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -141,6 +146,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-black);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .profession {
@@ -154,15 +161,19 @@ ul {
 .about-box {
   display: flex;
   justify-content: center;
-}
-
-.about-box img {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 .team-box {
   display: flex;
   justify-content: center;
+  gap: 30px;
+}
+
+.name-profession {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Footer */
