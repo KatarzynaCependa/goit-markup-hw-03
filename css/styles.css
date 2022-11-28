@@ -127,6 +127,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-black);
+  margin-bottom: 50px;
 }
 
 .name {
@@ -143,6 +144,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-light-gray);
+}
+
+.about-box {
+  display: flex;
+  justify-content: center;
+}
+
+.about-box img {
+  margin-right: 30px;
+}
+
+.team-box {
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer */
@@ -210,6 +225,16 @@ body {
 .buttons:focus {
   background: var(--logo-blue);
   color: var(--logo-white);
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons-box button {
+  margin-right: 8px;
 }
 
 /* Portfolio */
