@@ -34,6 +34,10 @@ figure {
   padding: 94px 0;
 }
 
+img {
+  vertical-align: middle;
+}
+
 /* Header */
 
 .logo {
