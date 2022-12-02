@@ -92,7 +92,7 @@ img {
 
 .background-hdr {
   background-color: var(--background-gray);
-  padding: 200px 452px;
+  padding: 200px 0;
 }
 
 .header-primary {
@@ -103,7 +103,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--logo-white);
-  background-color: var(--background-gray);
+  margin: 0 252px;
 }
 
 .header-primary-button {
@@ -118,8 +118,8 @@ img {
   cursor: pointer;
   border: none;
   outline: none;
-  margin: 30px 0 0 0;
-  padding: 10px 41px;
+  padding: 10px 41px 10px 42px;
+  margin: 30px auto auto;
 }
 
 /* Nasze atuty */
@@ -142,6 +142,7 @@ img {
 .strenghts-box {
   display: flex;
   column-gap: 30px;
+  margin-bottom: -94px;
 }
 
 /* Czym się zajmujemy */
@@ -194,7 +195,7 @@ img {
 
 .background-team {
   background-color: var(--buttons-background-gray);
-  padding: 94px 215px;
+  padding: 94px 0;
 }
 
 .border-team {
@@ -208,6 +209,7 @@ img {
 
 .background-ftr {
   background: var(--background-gray);
+  padding: 60px 0;
 }
 
 .logo-ftr {
@@ -230,6 +232,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--logo-white);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
 }
 
 .footer {
