@@ -7,6 +7,8 @@
   --text-light-gray: #757575;
   --buttons-background-gray: #f5f4fa;
   --background-gray: #2f303a;
+  --border-bottom-gray: #ececec;
+  --border-gray: #eeeeee;
 }
 
 body {
@@ -84,6 +86,33 @@ img {
 .header-contact:hover,
 .header-contact:focus {
   color: var(--logo-blue);
+}
+
+.bottom-line {
+  border-bottom: 1px solid var(--border-bottom-gray);
+  padding: 24px 0 25px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-flex-list {
+  display: flex;
+  margin-left: 120px;
+}
+
+.nav-flex-list li {
+  margin: 0 46px;
+}
+.contact-details a {
+  margin-left: 50px;
 }
 
 /* Main */
@@ -199,7 +228,7 @@ img {
 }
 
 .border-team {
-  background: #ffffff;
+  background: var(--logo-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -325,7 +354,7 @@ figcaption {
 }
 
 .border {
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid var(--border-gray);
+  border-right: 1px solid var(--border-gray);
+  border-bottom: 1px solid var(--border-gray);
 }
